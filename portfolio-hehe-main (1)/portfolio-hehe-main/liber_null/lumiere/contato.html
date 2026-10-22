@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Contato — Lumière</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><img src="moon.png" alt=""></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="produtos.html">Produtos</a></li>
+      <li><a href="sobrenos.html">Sobre nós</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main class="page-main">
+    <header class="section-header">
+      <h1>Fale conosco</h1>
+      <p class="page-subtitle">Dúvidas, sugestões ou pedidos — envie uma mensagem abaixo.</p>
+    </header>
+    <section class="contact-cards" aria-label="Canais de contato rápidos">
+      <article class="contact-card">
+        <h3>Atendimento</h3>
+        <p>Segunda a sexta, das 9h às 18h.</p>
+      </article>
+      <article class="contact-card">
+        <h3>Contato rápido</h3>
+        <p>lumiereloja@gmail.com<br>(84) 9832-3812</p>
+      </article>
+      <article class="contact-card">
+        <h3>Nosso endereço</h3>
+        <p>Avenida Paulistana 6741<br>Natal, RN</p>
+      </article>
+    </section>
+    <section aria-label="Formulário de contato" class="form-card">
+      <form action="#" method="post" novalidate>
+        <div class="form-grid">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required class="form-input" />
+
+          <label for="email">E‑mail</label>
+          <input id="email" name="email" type="email" required class="form-input" />
+
+          <label for="assunto">Assunto</label>
+          <input id="assunto" name="assunto" type="text" class="form-input" />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="6" required class="form-input form-input--textarea"></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">Enviar</button>
+            <a href="index.html" class="btn secondary">Voltar</a>
+          </div>
+        </div>
+      </form>
+
+      <div class="contact-info">
+        <p><strong>Telefone:</strong> (84) 9832-3812</p>
+        <p><strong>E‑mail:</strong> lumiereloja@gmail.com</p>
+        <p>Endereço e outras formas de contato podem ser adicionados aqui.</p>
+      </div>
+    </section>
+  </main>
+  </body>
+</html>
